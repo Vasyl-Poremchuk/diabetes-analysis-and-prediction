@@ -12,7 +12,7 @@ FEATURE_NAMES = [
     "AGE",
     "Urea",
     "Cr",
-    "HBA1C",
+    "HbA1c",
     "Chol",
     "TG",
     "HDL",
