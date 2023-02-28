@@ -49,5 +49,11 @@ Run the container:
 docker run -p 5000:5000 diabetes-analysis-and-prediction
 ```
 
+### Deployment
+
+A Diabetes Analysis & Prediction app deployed on Elastic Beanstalk.
+
+Check the [LINK](http://diabetesanalysisandprediction-env.eba-gm7pkyi9.us-east-1.elasticbeanstalk.com).
+
 ### Demo
 ![prediction_demo_image](/static/images/prediction.png)
