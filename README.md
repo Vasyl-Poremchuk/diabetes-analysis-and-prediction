@@ -16,8 +16,11 @@ pip install -r requirements.txt
 ```
 
 ### Diabetes Dataset
-A dataset from the **Mendeley Data** website was taken to analyze and predict diabetes. You can check more detailed information about the dataset, namely about the author, about the description, about the license and other data at this [link](https://data.mendeley.com/datasets/wj9rwkp9c2/1).
-<br>NOTE: This dataset is used for education purposes only. No data was changed.
+A dataset from the **Mendeley Data** website was taken to analyze and predict diabetes.
+
+You can check more detailed information about the dataset, namely about the author, about the description, about the license and other data at this [LINK](https://data.mendeley.com/datasets/wj9rwkp9c2/1).
+
+NOTE: This dataset is used for education purposes only. No data was changed.
 
 ### Data Analysis & Prediction
 
