@@ -29,5 +29,25 @@ A dataset from the **Mendeley Data** website was taken to analyze and predict di
     * Prepare data for modeling | Model Training | Model Evaluation (Random Forest Model);
     * Conclusion.
 
+### Running the application on the local machine
+
+```shell
+python -m app
+```
+
+### Running the application from a Dockerfile
+
+Build the Docker image:
+
+```shell
+docker build -t diabetes-analysis-and-prediction .
+```
+
+Run the container:
+
+```shell
+docker run -p 5000:5000 diabetes-analysis-and-prediction
+```
+
 ### Demo
 ![prediction_demo_image](/static/images/prediction.png)
