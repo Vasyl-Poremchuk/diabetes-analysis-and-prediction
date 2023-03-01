@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Diabetes</title>
   <link rel="stylesheet" href="/static/css/styles.css">
+  <script src="static/js/checker_blank.js"></script>
 </head>
 
 <body>
@@ -12,50 +13,50 @@
   <h1>Prediction Of Diabetes</h1>
   <h2>{{prediction_text}}</h2>
 
-  <form action="{{ url_for('predict')}}" method="post">
+  <form action="{{ url_for('predict')}}" method="post" onsubmit="return checkerBlank()">
     <label>
-      <input type="text" name="Gender" placeholder="Enter Gender (1 - female, 0 - male)" required="required"/>
+      <input type="text" name="Gender" placeholder="Enter Gender (1 - female, 0 - male)"/>
     </label><br>
     <label>
-      <input type="text" name="AGE" placeholder="Enter Age (years)" required="required"/>
+      <input type="text" name="AGE" placeholder="Enter Age (years)"/>
     </label><br>
     <label>
       <input type="text" name="Urea" placeholder="Enter Urea (the concentration of urea in the blood - mmol/L)"
-             required="required"/>
+      />
     </label><br>
     <label>
       <input type="text" name="Cr" placeholder="Enter Cr (the concentration of creatinine in the blood - mmol/L)"
-             required="required"/>
+      />
     </label><br>
     <label>
       <input type="text" name="HBA1C" placeholder="Enter HBA1C (the average concentration of glucose in the blood - %)"
-             required="required"/>
+      />
     </label><br>
     <label>
       <input type="text" name="Chol" placeholder="Enter Chol (the concentration of cholesterol in the blood - mmol/L)"
-             required="required"/>
+      />
     </label><br>
     <label>
       <input type="text" name="TG" placeholder="Enter TG (the concentration of triglycerides in the blood - mmol/L)"
-             required="required"/>
+      />
     </label><br>
     <label>
       <input type="text" name="HDL"
              placeholder="Enter HDL (the concentration of high-density lipoprotein in the blood - mmol/L)"
-             required="required"/>
+      />
     </label><br>
     <label>
       <input type="text" name="LDL"
              placeholder="Enter LDL (the concentration of low-density lipoprotein in the blood - mmol/L)"
-             required="required"/>
+      />
     </label><br>
     <label>
       <input type="text" name="VLDL"
              placeholder="Enter VLDL (the concentration of very low-density lipoprotein in the blood - mmol/L)"
-             required="required"/>
+      />
     </label><br>
     <label>
-      <input type="text" name="BMI" placeholder="Enter BMI (body mass index - kg/m^2)" required="required"/>
+      <input type="text" name="BMI" placeholder="Enter BMI (body mass index - kg/m^2)"/>
     </label><br>
 
 
